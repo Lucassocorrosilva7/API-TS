@@ -44,7 +44,7 @@
           "description": "Returns all roles paginated.",
           "responses": {
             "200": {
-              "description": "Sucess."
+              "description": "Success."
             }
           }
         }
