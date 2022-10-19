@@ -27,5 +27,3 @@ export class RolesRepository {
     return this.roles.find(role => role.name === name)
   }
 }
-
-// sempre quando usamos as chaves tem que ter o return explicito
