@@ -2,8 +2,9 @@ import { Role } from '@roles/entities/Role'
 import { RolesRepository } from '@roles/repositories/RolesRepository'
 
 export class ListRolesUseCase {
-  constructor(private rolesReposity: RolesRepository) {}
+  constructor(private rolesRepository: RolesRepository) {}
+
   execute(): Role[] {
-    return this.rolesReposity.findAll()
+    return this.rolesRepository.findAll()
   }
 }
