@@ -1,5 +1,4 @@
 import { Request, Response } from 'express'
-import { RolesRepository } from '@roles/repositories/RolesRepository'
 import { CreateRoleUseCase } from './CreateRoleUserCase'
 
 export class CreateRoleController {
